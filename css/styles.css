@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Amita|Limelight|Nunito');
+
+h1 {
+  font-family: 'Limelight', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 15px;
+}
+
+#myPieChart {
+  width: 200px;
+  height: 200px;
+}
+
+.chartContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px grey solid;
+  border-radius: 15px;
+  margin: 15px auto;
+}
+
+.input-forms {
+  text-align: center;
+  margin: 15px;
+}
+
+.input-forms input {
+  margin: 10px;
+}

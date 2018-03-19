@@ -5,21 +5,32 @@
 <head>
   <meta charset="utf-8">
 
-  <title> Basic Title </title>
-  <meta name="description" content="Basic Description">
-  <meta name="author" content="Jade Manrique">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Monthly Spending </title>
+  <meta name="description" content="Monthly spending illustrator" />
+  <meta name="author" content="Jade Manrique" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="icon" href="img/globe.png">
-  <link rel="stylesheet" href="css/reset.css?v=1.0">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/reset.css?v=1.0" />
+  <link rel="stylesheet" href="css/styles.css?v=1.0" />
   <script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
   <script src="scripts/scripts.js"></script>
 </head>
 
 <body>
 
-  <p> Basic Body Paragraph </p>
+  <h1>Monthly Expense Illustrator</h1>
+
+  <form class="input-forms">
+    <input id="expense" placeholder="Expense" />
+    <p>$</p>
+    <input id="money" placeholder="$ Value" />
+  </form>
+
+<div class="chartContainer">
+  <canvas id="myPieChart"></canvas>
+</div>
 
 </body>
 

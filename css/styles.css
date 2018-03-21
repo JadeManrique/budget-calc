@@ -14,10 +14,8 @@ h1 {
 
 .chartContainer {
   position: relative;
-  width: 200px;
-  height: 200px;
-  border: 1px grey solid;
-  border-radius: 15px;
+  width: 400px;
+  height: 400px;
   margin: 15px auto;
 }
 
